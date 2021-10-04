@@ -42,3 +42,27 @@ button a {
 	text-decoration: none;
 	color: inherit;
 }
+
+@media (max-width: 800px) {
+	.topsection{
+		width:100%;
+	}
+	.row{
+		display: flex;
+		width: 2%;
+		margin-left: 50%;
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 500px) {
+	.topsection{
+		width: 100%;
+	}
+	.row{
+		display: flex;
+		width: 2%;
+		margin-left: 50%;
+		flex-wrap: wrap;
+	}
+}
